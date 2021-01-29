@@ -43,7 +43,7 @@ public class ButtonController : MonoBehaviour, IPointerDownHandler
     }
     private IEnumerator WaitForActive()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(20f);
         MakeActive();
     }
     private void MakeActive()

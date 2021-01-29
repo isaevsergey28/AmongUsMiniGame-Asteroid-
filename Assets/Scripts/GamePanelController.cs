@@ -21,7 +21,7 @@ public class GamePanelController : MonoBehaviour
     }
     private IEnumerator CheckForClose()
     {
-        yield return new WaitForSeconds(300f);
+        yield return new WaitForSeconds(30f);
         ClosePanel();
     }
     private void ClosePanel()
