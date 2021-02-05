@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class AsteroidBehaviour: MonoBehaviour, IPointerDownHandler
 {
+    
+
     public GameObject addingText; // объект отвечающий за всплывающий текст
     private AddingScoreText _addingScoreScript; // скрипт всплывающего текста
 

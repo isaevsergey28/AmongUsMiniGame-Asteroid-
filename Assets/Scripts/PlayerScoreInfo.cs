@@ -7,6 +7,8 @@ public class PlayerScoreInfo : MonoBehaviour
 {
     public static PlayerScoreInfo objectInstance; // ссылка на собственный скрипт
 
+    
+
     private int _experience = 0; // опыт и ниже валюта
     private int _currency = 0;
 
